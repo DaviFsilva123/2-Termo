@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(224, 96, 22);
+
+}
+header {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(235, 226, 226);
+    border: red 10px solid;
+    border-color: rgb(255, 136, 0);
+    border-radius: 10px 50px;
+    padding: 20px;
+}
+nav a{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    text-align: center;
+}
+.bemvindo {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.tecnologia {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+footer{
+    background-color: whitesmoke;
+    margin: auto;
+    padding: 20px;
+    border: red 10px solid;
+    border-color: rgb(255, 153, 0);
+    border-radius: 10px 50px;
+}
