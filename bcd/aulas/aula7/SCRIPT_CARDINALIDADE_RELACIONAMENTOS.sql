@@ -52,3 +52,19 @@ FOREIGN KEY(Id_Cliente) REFERENCES Cliente (Id_Cliente)
 
 ALTER TABLE Pedido ADD FOREIGN KEY(Id_cliente) REFERENCES Cliente (Id_cliente);
 
+-- DESAFIOS
+-- questão 1
+-- categoria (1,n)-- possui -- (1,1)produto
+
+
+-- questão 2 
+-- Funcionário (1,n)-- registra -- (1,1)pedido
+
+-- questao 3
+-- fornecedor (1,n)-- fornecem -- (1,n)produtos
+
+-- questão 4
+-- cliente (1,1)-- reserva -- (1,1)mesa 
+
+-- questão 5
+-- pedido (1,n)-- possui -- (1,1)item_pedido
