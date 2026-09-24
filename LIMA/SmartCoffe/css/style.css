@@ -1,0 +1,50 @@
+body {
+background-color: #dad6d5;
+font-family: 'Courier New', Courier, monospace;
+margin: 0;
+}
+body > header{
+    padding: 10px 10px 20px;
+    background-color: rgb(95, 39, 6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    text-align: center;
+    padding: 20px 20px 30px;
+    background-color: rgb(95, 39, 6);
+}
+.banner-inicio{
+    text-align: right;
+}
+.cafes-conteudo{
+    text-align: center;
+}
+button{
+    background-color: rgb(80, 32, 7);
+}
+
+.SmartCoffe{
+    margin: 0;
+    width: 10px;
+    padding: 10px;
+}
+
+a {
+  color: rgb(0, 0, 0);             
+  text-decoration: none;   
+}
+
+
+
