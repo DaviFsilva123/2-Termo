@@ -1,6 +1,6 @@
 body {
 background-color: #dad6d5;
-font-family: 'Courier New', Courier, monospace;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin: 0;
 }
 body > header{
@@ -33,8 +33,8 @@ footer{
 }
 button{
     background-color: rgb(80, 32, 7);
-     border-radius: 20px; 
-    padding:px;
+    border-radius: 20px; 
+    padding: 10px;
 }
 
 .SmartCoffe{
@@ -60,7 +60,30 @@ a {
 }
 section{
     background-color: aliceblue;
-    border-radius: 20px; 
+    margin-bottom: 5px;
     padding: 30px;
+}
+
+
+.card-cafe{
+    display: flex;
+    text-align: center;
+}
+
+.tipos-cafes{
+    display: flex;
+    text-align: center;
+    width: 80px;
+    padding: 30px;
+}
+
+.ambiente-imagem img {
+    width: 400px;
+    height: 300px;
+}
+
+.logo-img img{
+    display: flex;
+   text-align: right;
 }
 

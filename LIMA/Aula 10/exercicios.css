@@ -1,0 +1,33 @@
+.equipe{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.equipe-2{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}   
+.equipe-3{
+    display: flex;
+    /* justify-content: space-between; */
+    /* Cria um espaçamento entre os elementos */
+    /* justify-content: center; */
+    /* Leva os elementos para o centro */
+   /* justify-content: flex-end;  */
+    /* Leva os elementos para o final */
+    /* justify-content: space-evenly; */
+    /* Cria um espaçamento igual entre os elementos no centro */
+}
+.cards {
+display: flex;
+justify-content: space-between;
+gap: 20px;
+}
+.card{
+    
+}
+
+
+
+
