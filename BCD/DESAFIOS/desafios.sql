@@ -189,6 +189,8 @@ SELECT * FROM cliente WHERE id_cliente = @id_cliente_teste;
 
 -- 15. Explique em comentário por que a FK bloqueou a exclusão.
 -- Resposta:
-
+-- A FK (Foreign Key) bloqueou a exclusão porque existe pois a tabela de clientes e a tabela de pedidos possuem uma dependencia. Quando um cliente possui pedidos associados, o banco de dados impede a exclusão desse cliente para garantir Que mantenha os dados. Isso significa que não é possível remover um registro pai (cliente) enquanto houver registros filhos (pedidos) que dependam dele, evitando assim irregularidades no banco de dados.
 
 -- 16. Crie uma categoria temporária chamada 'Excluir Depois' e remova-a.
+INSERT INTO categoria (nome) VALUES ('Excluir Depois');
+DELETE FROM categoria WHERE nome = 'Excluir Depois';
