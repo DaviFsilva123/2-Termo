@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Segundo Termo SENAI - Exercícios de Programação
 
 ## 📝 Descrição do Projeto
@@ -225,3 +226,7 @@ git merge nome-da-branch
 ---
 
 *Último atualizado: Agosto/2026*
+=======
+# 2-Termo
+Segundo termo SENAI
+>>>>>>> d53c91e754dbf4f5ec1d71f6fe613e3dbf621a6a
