@@ -139,7 +139,8 @@ LIMIT 10 OFFSET 5;
 SELECT nome, preco, preco * 1.30 AS Preço_Reajuste
 FROM produto;
 
-SELECT id_item, quantidade, preco_uniatario, quantidade * preco_uniatario AS Subtotal FROM item_pedido;
+SELECT id_item, quantidade, preco_uniatario, quantidade * preco_uniatario AS Subtotal 
+FROM item_pedido;
 
 -- EX 13: FUNÇÕES
 SELECT UPPER(nome) AS NOME_M, LOWER(cidade) AS cidade_m
@@ -195,9 +196,23 @@ FROM produto
 GROUP BY id_categoria;
 -- QUANRIDADE DE PRODUTOS POR CATEGORIA
 
+-- EX 16: HAVING - CRIAR CONDIÇÕES EM AGRUPAMENTOS
+--  WHERE FILTRA LINHAS ANTES DO AGRUPAMENTO
+-- HAVING FILTRA DEPOIS DO GROUP 
+SELECT cidade, COUNT(*) QTDE_CLIENTES
+FROM clientes 
+GROUP BY cidade
+HAVING COUNT(*) <= 10;
+-- CONSULTA PARA CIDADES COM PELO MENOS DOIS CLIENTES
 
-
-
+-- EX 17: RESUMO DE UMA CONSULTA COMPLETA
+-- SELECT colunas 
+-- FROM tabela 
+-- WHERE condicao
+-- GROUP BY coluna_agrupar
+-- HAVING condicao_agrupar
+-- ORDER BY colunas
+-- LIMIT quantidade;
 
 
 
